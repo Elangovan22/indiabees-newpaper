@@ -86,3 +86,8 @@ git push -u origin main
 git remote add origin https://github.com/Elangovan22/indiabees-newpaper.git
 git branch -M main
 git push -u origin main
+
+
+Json Server 
+
+ npx json-server --watch src/data/jsonDatabase.json --port 8000
